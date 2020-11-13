@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "ruql/html"
+require "ruql/gradescope"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

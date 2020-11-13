@@ -1,6 +1,6 @@
 module Ruql
   class Gradescope
-    require 'builder'           # optional - if you need XML building
+    # require 'builder'           # optional - if you need XML building; also add in .gemspec
     require 'erb'               # optional - if you need to read/process erb templates
     
     # the main driver will call Ruql::Gradescope#output;
